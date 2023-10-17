@@ -121,6 +121,10 @@ Additionally, Content Blocks cannot be used within an email footer, though email
 
 Once you have finished using a Content Block, you can archive it from the [Templates & Media]({{site.baseurl}}/user_guide/engagement_tools/templates_and_media/archive/) page.
 
+{% alert warning %}
+You cannot archive a Content Block if it is used in any messages. To archive a Content Block, you must first removing it from ALL messages that use it. 
+{% endalert %}
+
 Messages using the archived Content Block will still perform as though it was there. However, we recommend several best practices to ensure that outdated information is not accidentally included in your emails.
 
 1. When your Block is only used in a few emails, we recommend archiving the outdated Block and updating your live messages with a newer Block that has not been archived.
